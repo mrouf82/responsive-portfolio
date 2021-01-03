@@ -51,3 +51,16 @@ p {
   flex-shrink: 0;
   padding: 20px;
 }
+
+.mb-3 {
+  align-self: center;
+
+  padding-left: 200px;
+  padding-right: 200px;
+
+  max-width: 100%;
+  height: auto;
+}
+.col-auto {
+  padding-top: 10px;
+}
