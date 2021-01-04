@@ -1,6 +1,9 @@
 header {
   overflow: auto;
   position: relative;
+  width: 100%;
+  height: 100px;
+  font-family: "Open Sans", sans-serif;
 }
 .mainheader {
   text-align: center;
@@ -11,17 +14,28 @@ header {
   padding-bottom: 5px;
 }
 body {
-  height: 100%;
+  height: 100vh;
+  width: auto;
   display: flex;
   flex-direction: column;
   flex: 1 0 auto;
   background-image: url(https://cdn.wallpapersafari.com/90/57/9G7KTN.jpg);
-  color: azure;
-  overflow: hidden;
+  color: rgba(0, 0, 0, 0.966);
   min-height: 100%;
   margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  overflow: scroll;
 }
-.content {
+.navbar-brand {
+  font-weight: 800;
+}
+.navbar-nav {
+  float: right;
+  list-style: none;
+  width: fit-content;
 }
 p {
   padding-top: 10px;
@@ -51,7 +65,14 @@ p {
   flex-shrink: 0;
   padding: 20px;
 }
-
+.background {
+  clear: both;
+  background-color: #fffdfd;
+  padding: 10px;
+  margin: 30px auto;
+  width: 70%;
+  border: 5px solid #cc9797;
+}
 .mb-3 {
   align-self: center;
 
@@ -63,4 +84,7 @@ p {
 }
 .col-auto {
   padding-top: 10px;
+}
+.footer {
+  color: whitesmoke;
 }
