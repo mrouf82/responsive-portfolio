@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mohammad's Portfolio</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
     <link href="reset-style.css" rel="reset-stylesheet" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
@@ -15,10 +18,10 @@
     />
     <link href="style.css" rel="stylesheet" />
     <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"
-  ></script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <header>
     <!--this is the top navigation bar-->
@@ -36,47 +39,72 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <section class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="index.html"
-              >About Me</a
-            >
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-link active" href="contact.html">Contact</a>
-          </div>
+        <section id="nav-section">
+          <section class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >About Me</a
+              >
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </div>
+          </section>
         </section>
       </section>
     </nav>
-
-</header>
-<main>
-    <div class="background">
-    <h1 class= "mainheader">Contact</h1>
-    <form class= "row g-3">
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Name</label>
-            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="What is your name?">
-          </div>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </header>
+  <body>
+    <main class="container border">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center text-decoration-underline">Contact</h1>
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label" placeholder="Write here!">Message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        <div class="col-auto">
+      <!-- this is the contact me form that allows the input of the contacter's name, email and message-->
+      <form class="row g-3">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Name</label>
+          <input
+            type="name"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="What is your name?"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label
+            for="exampleFormControlTextarea1"
+            class="form-label"
+            placeholder="Write here!"
+            >Message</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+          <div class="col-auto">
             <button type="submit" class="btn btn-primary mb-3">Submit</button>
-          </div>  
-    </div>
-      
-    </form>
-</div>
-</main>
+          </div>
+        </div>
+      </form>
+    </main>
   </body>
   <footer class="footer">
-    Mohammad Rouf
-    <section class="mx-auto">
-    
-    </section>
-</footer>
+    <p>Mohammad Rouf</p>
+    <a href="https://github.com/mrouf82">GitHub</a>
+    <a href="https://www.linkedin.com/in/mohammad-rouf-b727401b5/"> LinkedIn</a>
+    <section class="mx-auto"></section>
+  </footer>
 </html>

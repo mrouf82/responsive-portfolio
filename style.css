@@ -1,60 +1,27 @@
-header {
-  overflow: auto;
-  position: relative;
-  width: 100%;
-  height: 100px;
-  font-family: "Open Sans", sans-serif;
-}
-.mainheader {
-  text-align: center;
-  text-decoration: underline;
-  margin: 0 auto 0 auto;
-  font-weight: bold;
-  padding-top: 2px;
-  padding-bottom: 5px;
-}
+/*this gives the background color of the html pages*/
 body {
-  height: 100vh;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  flex: 1 0 auto;
-  background-image: url(https://cdn.wallpapersafari.com/90/57/9G7KTN.jpg);
-  color: rgba(0, 0, 0, 0.966);
-  min-height: 100%;
-  margin: 0 auto;
-  font-family: "Open Sans", sans-serif;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
-  overflow: scroll;
+  background-color: rgb(97, 60, 60);
 }
-.navbar-brand {
-  font-weight: 800;
+/*this gives space at bottom of content to allow some space between footer and content*/
+main {
+  margin-bottom: 100px;
 }
-.navbar-nav {
-  float: right;
-  list-style: none;
-  width: fit-content;
-}
+/*this gives the font type*/
 p {
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  text-align: justify;
-  font-size: large;
+  font-family: "Open Sans", sans-serif;
 }
-.profpic {
-  float: left;
-  margin-right: 20px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 100px;
-  max-width: 100%;
-  height: auto;
+/*this is the inner section of box*/
+.border {
+  background-color: beige;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  padding: 2%;
 }
+/*allows the three navigation achor tags to be floating on the right*/
+.nav-section {
+  float: right;
+}
+/*allows the footer's characteristics to be set*/
 .footer {
   position: fixed;
   left: 0;
@@ -64,27 +31,5 @@ p {
   background-color: rgb(6, 6, 7);
   flex-shrink: 0;
   padding: 20px;
-}
-.background {
-  clear: both;
-  background-color: #fffdfd;
-  padding: 10px;
-  margin: 30px auto;
-  width: 70%;
-  border: 5px solid #cc9797;
-}
-.mb-3 {
-  align-self: center;
-
-  padding-left: 200px;
-  padding-right: 200px;
-
-  max-width: 100%;
-  height: auto;
-}
-.col-auto {
-  padding-top: 10px;
-}
-.footer {
   color: whitesmoke;
 }

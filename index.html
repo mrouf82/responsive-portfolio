@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--this brings in the css and outside source links-->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -39,28 +40,36 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <section class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >About Me</a
-              >
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-              <a class="nav-link" href="contact.html">Contact</a>
-            </div>
+          <section id="nav-section">
+            <section class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >About Me</a
+                >
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+              </div>
+            </section>
           </section>
         </section>
       </nav>
     </header>
-    <main>
-      <div class="background">
-        <h1 class="mainheader">About Me</h1>
-        <img
-          class="profpic"
-          src="assets/profile.jpg"
-          alt="profile picture"
-          style="width: 300px; height: 300px; max-width: 100%"
-        />
-        <section class="content">
+    <main class="container border">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center text-decoration-underline">About Me</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <!--introduces the profile picture-->
+          <img
+            class="img-thumbnail"
+            src="assets/profile.jpg"
+            alt="profile picture"
+          />
+        </div>
+        <div class="col-md-7">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -79,7 +88,6 @@
             sodales ut etiam. Egestas sed tempus urna et pharetra pharetra massa
             massa.
           </p>
-
           <p>
             Ullamcorper dignissim cras tincidunt lobortis feugiat. Molestie a
             iaculis at erat pellentesque adipiscing commodo. Urna duis convallis
@@ -99,20 +107,16 @@
             viverra accumsan. Proin libero nunc consequat interdum varius sit
             amet mattis vulputate.
           </p>
-          <p>
-            Amet porttitor eget dolor morbi non. Molestie nunc non blandit
-            massa. Turpis massa tincidunt dui ut. Vel quam elementum pulvinar
-            etiam. Consequat nisl vel pretium lectus quam id leo in vitae.
-            Tortor condimentum lacinia quis vel eros donec ac odio tempor. Fames
-            ac turpis egestas maecenas pharetra convallis posuere morbi leo.
-            Nulla porttitor massa id neque aliquam vestibulum morbi blandit
-            cursus. Congue quisque egestas diam in arcu cursus. Sit amet
-            consectetur adipiscing elit pellentesque. Ut ornare lectus sit amet
-            est placerat in egestas erat.
-          </p>
-        </section>
+        </div>
       </div>
     </main>
-    <footer class="footer">Mohammad Rouf</footer>
+    <!--this is the footer at the bottom-->
+    <footer class="footer">
+      <p>Mohammad Rouf</p>
+      <a href="https://github.com/mrouf82">GitHub</a>
+      <a href="https://www.linkedin.com/in/mohammad-rouf-b727401b5/">
+        LinkedIn</a
+      >
+    </footer>
   </body>
 </html>
